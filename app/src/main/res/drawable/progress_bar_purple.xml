@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@android:id/background">
+            <shape android:shape="rectangle">
+                <solid android:color="#E0E0E0" /> <!-- Light gray background -->
+            </shape>
+        </item>
+        <item android:id="@android:id/progress">
+            <clip>
+                <shape android:shape="rectangle">
+                    <solid android:color="#7B1FA2"/> <!-- Purple color -->
+                </shape>
+            </clip>
+        </item>
+    </layer-list>
+
+</selector>
